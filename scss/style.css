@@ -1,0 +1,109 @@
+body {
+  margin-top: 90px;
+}
+
+.navbar {
+  -webkit-box-shadow: 2px 2px 2px #3292a6;
+          box-shadow: 2px 2px 2px #3292a6;
+  background: #fff;
+  opacity: 0.9;
+}
+
+.navbar .nav-item {
+  font-size: 1.4rem;
+  padding-right: 20px;
+}
+
+.navbar .nav-item .nav-link {
+  color: #252525;
+}
+
+.navbar .nav-item .nav-link:hover {
+  color: #3292a6;
+}
+
+.navbar .nav-item:last-child {
+  padding-right: 0;
+}
+
+#subscribe .btn {
+  background: #3292a6;
+  color: #fff;
+}
+
+#boxes .card {
+  border-color: #3292a6;
+}
+
+#boxes .card h3 {
+  color: #3292a6;
+}
+
+#boxes .box {
+  background: #3292a6;
+}
+
+#showcase {
+  position: relative;
+  background: url("../img/mountains.jpg");
+  min-height: 700px;
+}
+
+#showcase .primary-overlay {
+  background: rgba(50, 146, 156, 0.7);
+  min-height: 700px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#showcase .btn {
+  border-radius: 0px;
+}
+
+#about .header {
+  color: #3292a6;
+}
+
+#author img {
+  margin-top: -50px;
+}
+
+#author .head {
+  color: #3292a6;
+}
+
+#author .fab {
+  font-size: 25px;
+  color: #3292a6;
+}
+
+#author .card:hover {
+  background: #3292a6;
+  color: #fff;
+}
+
+#author .card:hover .fab {
+  color: #fff;
+}
+
+#contact .btn {
+  background: #3292a6;
+}
+
+#footer-main {
+  background: #3292a6;
+}
+
+#footer-main a {
+  color: #fff;
+}
+
+@media (max-width: 576px) {
+  #showcase h1 {
+    font-size: 4rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
